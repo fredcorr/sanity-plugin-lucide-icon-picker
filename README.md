@@ -30,11 +30,11 @@
 ## Installation
 
 ```sh
-pnpm add sanity-plugin-lucide-icon-picker
+pnpm add @fredcorr/sanity-plugin-lucide-icon-picker
 # or
-yarn add sanity-plugin-lucide-icon-picker
+yarn add @fredcorr/sanity-plugin-lucide-icon-picker
 # or
-npm install sanity-plugin-lucide-icon-picker
+npm install @fredcorr/sanity-plugin-lucide-icon-picker
 ```
 
 ---
@@ -46,7 +46,7 @@ npm install sanity-plugin-lucide-icon-picker
 ```ts
 // sanity.config.ts
 import { defineConfig } from 'sanity';
-import { lucideIconPicker } from 'sanity-plugin-lucide-icon-picker';
+import { lucideIconPicker } from '@fredcorr/sanity-plugin-lucide-icon-picker';
 
 export default defineConfig({
   // ...
@@ -143,6 +143,19 @@ For optimal frontend performance:
 - Sanity Studio v3 or v4
 - React 18 or 19
 - TypeScript (recommended)
+
+---
+
+## Publishing (fork)
+
+Scoped packages default to private, so publish with public access:
+
+```sh
+npm login
+npx pnpm run build
+npm version patch
+npm publish --access public
+```
 
 ---
 
