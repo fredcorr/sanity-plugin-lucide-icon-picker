@@ -1,12 +1,12 @@
 <div align="center">
-  <h1>Sanity Lucide Icon Picker</h1>
-  <h3>A beautiful icon picker plugin for Sanity Studio with 1,600+ Lucide icons.</h3>
-  <p><em>Developed and maintained by <a href="https://contentwrap.io" target="_blank">ContentWrap</a></em></p>
+  <h1>Sanity Lucide Icon Picker (Sanity v4 compatibility)</h1>
+  <h3>A Lucide icon picker plugin for Sanity Studio v4 with 1,600+ icons.</h3>
+  <p><em>Fork maintained by @fredcorr</em></p>
 
-  <img src="https://img.shields.io/npm/v/sanity-plugin-lucide-icon-picker" alt="npm version" />
+  <img src="https://img.shields.io/npm/v/@fredcorr/sanity-plugin-lucide-icon-picker" alt="npm version" />
   <img src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Sanity-F03E2F?logo=sanity&logoColor=white" alt="Sanity" />
-  <img src="https://img.shields.io/npm/l/sanity-plugin-lucide-icon-picker?style&color=5D6D7E" alt="MIT License" />
+  <img src="https://img.shields.io/npm/l/@fredcorr/sanity-plugin-lucide-icon-picker?style&color=5D6D7E" alt="MIT License" />
 
   <br>
   <br>
@@ -24,6 +24,21 @@
 - **High performance**: Virtualized rendering and lazy loading for smooth experience
 - **Configurable**: Flexible options for filtering icons
 - **Preview support**: Built-in preview function for Sanity Studio
+
+---
+
+## Compatibility Update
+
+This fork is a dependency-compatibility update only:
+
+- Updated peer dependencies for Sanity Studio v4 and @sanity/ui v3
+- No functional changes intended
+
+---
+
+## Personal Use
+
+This fork is intended for personal use only and is not published to npm.
 
 ---
 
@@ -140,22 +155,11 @@ For optimal frontend performance:
 
 ## Requirements
 
-- Sanity Studio v3 or v4
-- React 18 or 19
+- Sanity Studio v4
+- @sanity/ui v3
+- React 18
+- styled-components 6.1
 - TypeScript (recommended)
-
----
-
-## Publishing (fork)
-
-Scoped packages default to private, so publish with public access:
-
-```sh
-npm login
-npx pnpm run build
-npm version patch
-npm publish --access public
-```
 
 ---
 
@@ -165,6 +169,6 @@ MIT © ContentWrap
 
 ---
 
-## About the Developer
+## Fork Notes
 
-This package is developed and maintained by [ContentWrap](https://contentwrap.io), a digital product agency specializing in Sanity and modern web development.
+This package is a fork of the original plugin by [ContentWrap](https://contentwrap.io). It only updates dependencies to support Sanity Studio v4 and @sanity/ui v3.
