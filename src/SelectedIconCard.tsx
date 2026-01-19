@@ -1,4 +1,3 @@
-import { EllipsisHorizontalIcon, SyncIcon, TrashIcon } from '@sanity/icons';
 import {
   Box,
   Button,
@@ -9,6 +8,7 @@ import {
   Popover,
   Text,
 } from '@sanity/ui';
+import { MoreHorizontal, RefreshCw, Trash2 } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 
 import type { AutocompleteIconOption } from './types';
@@ -85,7 +85,7 @@ export const SelectedIconCard: React.FC<SelectedIconCardProps> = ({
             content={
               <Menu>
                 <MenuItem
-                  icon={TrashIcon}
+                  icon={Trash2}
                   text="Clear"
                   tone="critical"
                   onClick={(e) => {
@@ -95,7 +95,7 @@ export const SelectedIconCard: React.FC<SelectedIconCardProps> = ({
                   }}
                 />
                 <MenuItem
-                  icon={SyncIcon}
+                  icon={RefreshCw}
                   text="Replace"
                   onClick={(e) => {
                     onReplace();
@@ -110,7 +110,7 @@ export const SelectedIconCard: React.FC<SelectedIconCardProps> = ({
             constrainSize
           >
             <Button
-              icon={EllipsisHorizontalIcon}
+              icon={MoreHorizontal}
               mode="bleed"
               padding={2}
               onClick={(e) => {

@@ -21,7 +21,7 @@ export const lucideIconType = defineType({
  */
 export const lucideIconPicker = definePlugin(() => {
   return {
-    name: 'sanity-plugin-lucide-icon-picker',
+    name: '@fredcorr/sanity-plugin-lucide-icon-picker',
     schema: {
       types: [lucideIconType],
     },

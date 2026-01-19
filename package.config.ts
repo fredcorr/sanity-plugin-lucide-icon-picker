@@ -5,7 +5,7 @@ export default defineConfig({
   tsconfig: 'tsconfig.dist.json',
 
   // External dependencies (don't bundle these)
-  external: ['react', 'react-dom', 'sanity', '@sanity/ui', '@sanity/icons'],
+  external: ['react', 'react-dom', 'sanity', '@sanity/ui'],
 
   // Bundle optimizations
   minify: true,

@@ -1,5 +1,5 @@
-import { TrashIcon } from '@sanity/icons';
 import { Autocomplete, Box, Button, Card, Flex, Text } from '@sanity/ui';
+import { Trash2 } from 'lucide-react';
 import { type JSX, useCallback, useEffect, useMemo, useState } from 'react';
 import { type StringInputProps, set, unset } from 'sanity';
 
@@ -167,7 +167,7 @@ const LucideIconPicker = ({
             </Flex>
             {!readOnly && (
               <Button
-                icon={TrashIcon}
+                icon={Trash2}
                 mode="ghost"
                 tone="critical"
                 onClick={(e) => {

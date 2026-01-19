@@ -1,5 +1,5 @@
 {
-  "name": "sanity-plugin-lucide-icon-picker",
+  "name": "@fredcorr/sanity-plugin-lucide-icon-picker",
   "version": "1.0.3",
   "description": "Sanity plugin to select and preview Lucide icons in the Sanity Studio",
   "keywords": [
@@ -60,10 +60,12 @@
   "devDependencies": {
     "@sanity/browserslist-config": "^1.0.5",
     "@sanity/incompatible-plugin": "^1.0.5",
-    "@sanity/pkg-utils": "^7.8.10",
-    "@sanity/plugin-kit": "^4.0.19",
+    "@sanity/pkg-utils": "^10.3.2",
+    "@sanity/plugin-kit": "^4.0.20",
+    "@sanity/ui": "^3.0.0",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
-    "@types/react": "^19.1.8",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^8.35.0",
     "@typescript-eslint/parser": "^8.35.0",
     "eslint": "^8.57.1",
@@ -74,13 +76,18 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "prettier": "^3.6.2",
     "prettier-plugin-packagejson": "^2.5.17",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sanity": "^4.0.0",
+    "styled-components": "^6.1.11",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
-    "@sanity/icons": "^3.7.0",
-    "@sanity/ui": "^2 || ^3",
-    "react": "^18 || ^19",
-    "sanity": "^3 || ^4"
+    "@sanity/ui": "^3",
+    "react": "^18",
+    "react-dom": "^18",
+    "sanity": "^4",
+    "styled-components": "^6.1"
   },
   "browserslist": "extends @sanity/browserslist-config",
   "engines": {
