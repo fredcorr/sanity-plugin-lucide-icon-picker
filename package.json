@@ -1,6 +1,6 @@
 {
   "name": "@fredcorr/sanity-plugin-lucide-icon-picker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "description": "Sanity plugin to select and preview Lucide icons in the Sanity Studio",
   "keywords": [
@@ -85,10 +85,9 @@
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
-    "@sanity/ui": "^3",
     "react": "^18 || ^19",
     "react-dom": "^18 || ^19",
-    "sanity": "^4",
+    "sanity": "^4 || ^5 || ^6",
     "styled-components": "^6.1"
   },
   "browserslist": "extends @sanity/browserslist-config",
