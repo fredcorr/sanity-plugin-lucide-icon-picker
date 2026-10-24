@@ -1,13 +1,6 @@
-import {
-  Box,
-  Button,
-  Card,
-  Flex,
-  Menu,
-  MenuItem,
-  Popover,
-  Text,
-} from '@sanity/ui';
+import { Box, Button, Card, Flex, Text } from '@sanity/ui';
+import { Menu, MenuItem } from '@sanity/ui/menu';
+import { Popover } from '@sanity/ui/popover';
 import { MoreHorizontal, RefreshCw, Trash2 } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 
