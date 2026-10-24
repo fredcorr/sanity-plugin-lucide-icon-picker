@@ -1,6 +1,6 @@
 {
   "name": "@fredcorr/sanity-plugin-lucide-icon-picker",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "private": true,
   "description": "Sanity plugin to select and preview Lucide icons in the Sanity Studio",
   "keywords": [
@@ -57,6 +57,7 @@
     "watch": "pkg-utils watch --strict"
   },
   "dependencies": {
+    "@sanity/ui": "^4.0.1",
     "lucide-react": "^0.532.0"
   },
   "devDependencies": {
@@ -64,7 +65,6 @@
     "@sanity/incompatible-plugin": "^1.0.5",
     "@sanity/pkg-utils": "^11.0.0",
     "@sanity/plugin-kit": "^4.0.20",
-    "@sanity/ui": "^3.0.0",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
@@ -80,14 +80,14 @@
     "prettier-plugin-packagejson": "^2.5.17",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "sanity": "^4.0.0",
+    "sanity": "^6.20.0",
     "styled-components": "^6.1.11",
     "typescript": "^6.0.0"
   },
   "peerDependencies": {
     "react": "^18 || ^19",
     "react-dom": "^18 || ^19",
-    "sanity": "^4 || ^5 || ^6",
+    "sanity": "^6.9.2",
     "styled-components": "^6.1"
   },
   "browserslist": "extends @sanity/browserslist-config",
